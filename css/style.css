@@ -14,12 +14,20 @@
 .signin-page span{
     display: block;
 }
+.signin-page a{
+    color: #0077C5;
+    text-decoration: none;
+}
 .btn-signin{
     width: 100px;
     background: #0077C5;
     border-radius: 5px;
     border: hidden;
+    margin-left: 10px;
 }
 .btn-signin i{
     margin-right: 5px;
+}
+.label-br{
+    display: block;
 }
