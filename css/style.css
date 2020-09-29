@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-sign{
+    background: #ECEEF1;
+}
+.signin-page{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.signin-page span{
+    display: block;
+}
+.btn-signin{
+    width: 100px;
+    background: #0077C5;
+    border-radius: 5px;
+    border: hidden;
+}
+.btn-signin i{
+    margin-right: 5px;
+}
