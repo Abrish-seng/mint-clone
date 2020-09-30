@@ -21,7 +21,7 @@
         </div>
         <header>
            <div>
-               <a href="#"><img class="iunt-img" src="../mint-clone/img/download.png" width="" alt=""></a>
+               <a href="#"><img class="iunt-img" src="" width="" alt=""></a>
            </div>
         </header>
     </section>
@@ -31,22 +31,25 @@
                 <h3 style="margin-left: 20px;margin-bottom: 20px;">Create an Intuit account</h3>
             <h5>One account for everything Intuit, including Mint.</h5>
             <h5 style="text-align: center;"><a href="#">Learn more</a></h5>
-            <h5 style="margin-left: 30px;">Already have an account? <span><a href="#">Sign In</a></span></h5>
+            <h5 style="margin-left: 30px;" class="having-account">Already have an account? <span><a href="#">Sign In</a></span></h5>
             </header>
             <form action="">
                 <div>
                     <label for="UserId" class="label-br">Email Address</label>
-                <input type="email" class="form-control" required>
+                <input type="email" class="form-control required" >
+                <input type="email" class="form-control-1" placeholder="You will verify this later">
                 </div>
                 <div>
                     <label for="phone-number" class="label-br">
                         Phone (recommended)</label>
-                    <input type="phone" class="form-control" required>
+                    <input type="phone" class="form-control required">
+                    <input type="phone" class="form-control-1" placeholder="Helps with lost Password and security">
                     <h6>Standard call, messaging or data rates may apply.</h6>
                 </div>
                 <div>
                     <label for="password" class="label-br">password</label>
-                <input type="password" class="form-control" required>
+                <input type="password" class="form-control required">
+                <input type="password" class="form-control-1" placeholder="Don't reuse an old password">
                 </div>
                 <div>
                     <button class="create-account"><i class="fas fa-lock"></i> Create Account</button>
@@ -62,16 +65,19 @@
             </section>
         </div>
     </section>
-    <section class="page-info">
-        <div>
-            <ul>
-                <li><a href="#">Legal</a></li>
-                <li><a href="#"> Pravacy</a></li>
-                <li><a href="#"> security</a></li>
-            </ul>
+    <section >
+        <div class="page-info">
+            <div>
+                <ul>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#"> Pravacy</a></li>
+                    <li><a href="#"> security</a></li>
+                </ul>
+            </div>
+            <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+            <span> Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+        
         </div>
-        <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
-        <span> Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
-    </section>
+   </section>
 </body>
 </html>
