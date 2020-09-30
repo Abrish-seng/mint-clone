@@ -32,3 +32,36 @@
 .label-br{
     display: block;
 }
+.container{
+    max-width: 400px;
+    width: calc(100% - 50px);
+    border: 1px solid #aaaa;
+    margin: auto 20%;
+}
+.ius-main-header,form,footer{
+    margin: 30px 20px;
+}
+.form-control{
+    padding: 7px;
+    width: 90%;
+    border:1px solid #d8d8d8;
+    color: #000;
+    outline: none;
+}
+.label-br{
+    margin: 30px auto 10px auto;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+
+}
+.create-account{
+    margin: 30px auto auto;
+    width: 90%;
+    padding: 10px;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    background: #0077C5;
+    outline: none;
+    border: hidden;
+    border-radius: 5px;
+}
