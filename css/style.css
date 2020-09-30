@@ -12,6 +12,9 @@
     justify-content: flex-end;
     padding: 20px;
 }
+a{
+    text-decoration: none;
+}
 .signin-page span{
     display: block;
 }
@@ -29,6 +32,8 @@
     border-radius: 5px;
     border: hidden;
     margin-left: 10px;
+    color: white;
+    font-size: 1rem;
 }
 .btn-signin i{
     margin-right: 5px;
@@ -37,9 +42,14 @@
 font-size: .75rem;
 line-height: 1.3;
 }
-.iunt-img{
-    height: 128px;
+.mint-img{
+ height: auto;
   background-position: 15px 0px;
+  text-align: center;
+  padding: 20px;
+}
+.mint-img-profile{
+    padding: 15px;
 }
 .label-br{
     display: block;
@@ -56,6 +66,15 @@ section{
 }
 .ius-main-header,form,footer{
     margin: 30px 20px;
+}
+.password{
+    position: relative;
+}
+.password i{
+    position: absolute;
+    top: 40px;
+    right: 13%;
+    color: #999;
 }
 .form-control,.form-control-1{
     padding: 7px;
@@ -143,6 +162,12 @@ ul a:hover{
 }
 @media(min-width:768px){
     .having-account{
+        display: none;
+    }
+    
+}
+@media(max-width:768px){
+    .signin-page{
         display: none;
     }
     
